@@ -1,0 +1,123 @@
+.website__exp {
+    align-items: center;
+    padding: 20rem 6rem 2rem 30rem;
+}
+
+.website__exp-title h1{
+    font-family: var(--font-family);
+    font-size: 48px;
+    color: var(--colour-text);
+    padding-bottom: 2rem;
+}
+
+.Skillscards {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.Skills_addtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.Skills_addtext:hover {
+    transform: scale(1.1);
+}
+
+.Skills_text {
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--colour-text);
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+}
+
+.Skills__bg {
+    background: var(--colour-card);
+    width: 78px;
+    height: 78px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.Skills__bg svg{
+    width: 50px;
+    height: 50px;
+    color: var(--colour-text);
+}
+
+.ExperienceCards {
+    display: flex;
+    align-items: center;
+}
+
+.Experiencecard__bg {
+    background: var(--colour-card);
+    width: 430px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-right: 3rem;
+    position: relative;
+}
+
+.Experiencecard__card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Experiencecard__card-text-date, 
+.Experiencecard__card-text-title,
+.Experiencecard__card-text-company,
+.Experiencecard__card-text-content {
+    font-family: var(--font-family);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.Experiencecard__card-text-date {
+    color: var(--colour-subtext);
+    font-size: 18px;
+}
+
+.Experiencecard__card-text-company {
+    color: var(--colour-subtext);
+    font-size: 20px;
+}
+
+.Experiencecard__card-text-title {
+    color: var(--colour-text);
+    font-size: 28px;
+}
+
+.Experiencecard__card-text-content {
+    color: var(--colour-para);
+    font-size: 20px;
+}
+
+
+.Experiencecard__card-text-skills {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Experiencecard__card-text-skills svg {
+    width: 35px;
+    height: 35px;
+    color: var(--colour-text);
+    margin: 0 0.5rem;
+}

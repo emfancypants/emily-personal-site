@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans');
+
+:root {
+  --font-family: 'DM Sans', sans-serif;
+  
+  --colour-bg: #FFFFFA;
+  --colour-footer : #282C3C;
+  --colour-card: #D9D9D9;
+  --colour-text: #282C3C;
+  --colour-subtext: #73757D;
+  --colour-para: #3F4147;
+}

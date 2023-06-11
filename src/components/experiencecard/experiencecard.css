@@ -1,0 +1,54 @@
+.Experiencecard__bg {
+    background: var(--colour-card);
+    width: 410px;
+    height: 430px;
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+.Experiencecard__card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Experiencecard__card-text-date, 
+.Experiencecard__card-text-title,
+.Experiencecard__card-text-company,
+.Experiencecard__card-text-content {
+    font-family: var(--font-family);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.Experiencecard__card-text-date {
+    color: var(--colour-subtext);
+    font-size: 18px;
+}
+
+.Experiencecard__card-text-company {
+    color: var(--colour-subtext);
+    font-size: 20px;
+}
+
+.Experiencecard__card-text-title {
+    color: var(--colour-text);
+    font-size: 28px;
+}
+
+.Experiencecard__card-text-content {
+    color: var(--colour-para);
+    font-size: 20px;
+}
+
+.Experiencecard__card-text-skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.Experiencecard__card-text-skills svg {
+    width: 35px;
+    height: 35px;
+}
