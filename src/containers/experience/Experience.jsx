@@ -8,7 +8,7 @@ import { FaJava } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <div className='website__exp'>
+    <div className='website__exp' id='experience'>
       <div className='website__exp-title'>
         <h1>My Skills and Experiences</h1>
       </div>
@@ -91,7 +91,7 @@ const Experience = () => {
             <SiReact />
           </div>
           <div className='Skills_text'>
-            <h4>React JS</h4>
+            <h4>ReactJS</h4>
           </div>
         </div>
 
@@ -123,7 +123,7 @@ const Experience = () => {
               May 2023 - Aug 2023
             </h4>
             <h1 className='Experiencecard__card-text-title'>
-              Business Development & Marketing Intern
+              Business Development & <br/> Marketing Intern
             </h1>
             <h4 className='Experiencecard__card-text-company'>
               Baker McKenzie Wong & Leow
@@ -131,6 +131,7 @@ const Experience = () => {
             <p className='Experiencecard__card-text-content'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </p>
           </div>
           <div className='Experiencecard__card-text-skills'>
@@ -150,8 +151,10 @@ const Experience = () => {
               TES-AMM Singapore
             </h4>
             <p className='Experiencecard__card-text-content'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Maintained, enhanced and created storyboards for data visualisation using Power BI. <br/>
+            Restructured workflows using end-to-end ETL processes using AWS cloud services. <br/>
+            Wrote automated Python scripts which automated the generation of documents for internal departments. <br/>
+            Conducted a Research Study using Machine Learning Techniques for the prediction and forecasting of processing times of assets. <br/>
             </p>
           </div>
           <div className='Experiencecard__card-text-skills'>

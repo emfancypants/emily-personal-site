@@ -5,9 +5,9 @@ import logo from '../../assets/emily logo_1.png'
 
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
+  <p><a href="#top">Home</a></p>
   <p><a href="#about">About</a></p>
-  <p><a href="#Experience">Experiences</a></p>
+  <p><a href="#experience">Experiences</a></p>
   <p><a href="#projects">Projects</a></p>
   </>
 )
@@ -25,7 +25,9 @@ const Navbar = () => {
           <Menu />
         </div>
         <div className='website__navbar-resume scale-up-center'>
-          <button type='button'>View Resume</button>
+          <a href="https://drive.google.com/file/d/1iwq36ZbKr6XnFbD03DgWgACnQypZPMwg/view?usp=sharing" target='blank'>
+            <button type='button'>View Resume</button>
+          </a>
         </div>
 
         {/* <div className="website__navbar-menu">

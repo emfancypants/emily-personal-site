@@ -1,0 +1,43 @@
+.Footer_bg {
+    background: var(--colour-footer);
+    padding: 4rem 6rem;
+    display: flex; 
+    flex-direction: row;
+}
+
+.copyright {
+    color: var(--colour-bg);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.button_up {
+    margin-left: auto;
+}
+
+.button_up button {
+    background: var(--colour-bg);
+    padding: 0.25rem;
+    border-radius: 8px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button_up button:hover {
+    background: var(--colour-card);
+}
+
+.button_up svg{
+    width: 38px;
+    height: 38px;
+    color: var(--colour-footer);
+    transition: all 0.3s ease-in-out;
+}
+
+.button_up svg:hover{
+    transform: translateY(-3px);
+}

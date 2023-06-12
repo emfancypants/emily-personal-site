@@ -7,19 +7,19 @@ import { MdOutlineEmail } from "react-icons/md";
 const Contacts = () => {
   return (
     <div className='website__contacts'>
-      <a href="https://www.google.com/" target="_blank">
+      <a href="mailto:1772kfn@gmail.com" target="_blank">
           <SiGmail />
       </a>
-      <a href="https://www.google.com/" target="_blank">
+      <a href="https://www.instagram.com/em_fancypants/" target="_blank">
           <SiInstagram />
       </a>
-      <a href="https://www.google.com/" target="_blank">
+      <a href="https://t.me/emfancypants" target="_blank">
           <SiTelegram />
       </a>
-      <a href="https://www.google.com/" target="_blank">
+      <a href="https://www.linkedin.com/in/emilykok/" target="_blank">
           <SiLinkedin />
       </a>
-      <a href="https://www.google.com/" target="_blank">
+      <a href="https://github.com/emfancypants" target="_blank">
           <SiGithub />
       </a>
 

@@ -16,12 +16,12 @@ const Home = () => {
           I am all about finding the middle ground <br/>between Data and Design
         </h4>
       </div>
-      <div className='website__home-scroll'>
+      <a className='website__home-scroll' href='#about'>
         <button className='website__home-scroll-mouse' type='button'>
           <BsMouse />
           Scroll to find out more!
         </button>
-      </div>
+      </a>
     </div>
   )
 }

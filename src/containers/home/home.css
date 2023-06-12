@@ -1,6 +1,6 @@
 .website__home {
     align-items: center;
-    padding: 6rem 6rem 2rem 30rem;
+    padding: 6rem 6rem 20rem 30rem;
 }
 
 .website__home-intro h1, h4 {
@@ -30,8 +30,8 @@
     margin: 0 1rem;
 }
 
-.website__home-scroll {
-    margin: 2rem 0;
+.website__home-scroll-mouse {
+    margin: 1.5rem 0;
 }
 
 .website__home-scroll-mouse {

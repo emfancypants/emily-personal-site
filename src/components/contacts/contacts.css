@@ -12,4 +12,10 @@
 
     margin: 1rem;
     color: var(--colour-text);
+    transition: all 0.3s ease-in-out;
+}
+
+.website__contacts svg:hover{
+    color: #10121B;   
+    transform: scale(1.2);
 }

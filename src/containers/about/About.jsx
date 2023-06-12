@@ -8,7 +8,7 @@ import artist from '../../assets/artist.png'
 
 const About = () => {
   return (
-    <div className='website__about'>
+    <div className='website__about' id='about'>
       <div className='website__about-title'>
         <h1>I am a...</h1>
       </div>

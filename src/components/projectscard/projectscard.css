@@ -1,0 +1,68 @@
+.Projectscard__bg {
+    background: var(--colour-card);
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-right: 3rem;
+    position: relative;
+}
+
+.Projectscard__card-pic-bg {
+    background: var(--colour-bg);
+    margin: auto;
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.Projectscard__card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Projectscard__card-text-date, 
+.Projectscard__card-text-title,
+.Projectscard__card-text-company,
+.Projectscard__card-text-content {
+    font-family: var(--font-family);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.Projectscard__card-text-date {
+    color: var(--colour-subtext);
+    font-size: 18px;
+}
+
+.Projectscard__card-text-title {
+    color: var(--colour-text);
+    font-size: 28px;
+}
+
+.Projectscard__card-text-content {
+    color: var(--colour-para);
+    font-size: 20px;
+}
+
+
+.Projectscard__card-text-skills {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Projectscard__card-text-skills svg {
+    width: 35px;
+    height: 35px;
+    color: var(--colour-text);
+    margin: 0 0.7rem;
+}
