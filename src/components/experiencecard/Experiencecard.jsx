@@ -1,28 +1,28 @@
 import React from 'react';
 import './experiencecard.css'
-import { SiPython, SiRstudio, SiPowerbi, SiTableau, SiHtml5, SiCss3, SiReact, SiMicrosoftexcel, SiFigma} from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { FaJava } from "react-icons/fa";
 
-const Experiencecard = () => {
+function Experiencecard(props) {
   return (
     <div className='Experiencecard__bg'>
       <div className='Experiencecard__card-text'>
         <h4 className='Experiencecard__card-text-date'>
-          May 2023 - Aug 2023
+          {props.date}
         </h4>
         <h1 className='Experiencecard__card-text-title'>
-          Business Development & Marketing Intern
+          {props.role}
         </h1>
         <h4 className='Experiencecard__card-text-company'>
-          Baker McKenzie Wong & Leow
+          {props.company}
         </h4>
         <p className='Experiencecard__card-text-content'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          {props.content}
         </p>
         <div className='Experiencecard__card-text-skills'>
-          <SiMicrosoftexcel />
+          {props.icon1}
+          {props.icon2}
+          {props.icon3}
+          {props.icon4}
+          {props.icon5}
         </div>
       </div>
     </div>

@@ -1,19 +1,18 @@
 import React from 'react';
 import './aboutcard.css'
-import student from '../../assets/student.png'
 
-const Aboutcard = (props) => {
+function Aboutcard(props) {
   return (
     <div className='Aboutcard__card'>
       <div className='Aboutcard__card-pic-bg'>
-        <img src={student} alt="" />
+        <img src={props.picture} alt="" />
       </div>
       <div className='Aboutcard__card-text'>
         <h1 className='Aboutcard__card-text-title'>
-          Student
+          {props.title}
         </h1>
         <p className='Aboutcard__card-text-content'>
-          I am a Year 3 Undergraduate Majoring in Business Analytics with a Specialization in Marketing at the National University of Singapore (NUS)
+          {props.content}
         </p>
       </div>
     </div>

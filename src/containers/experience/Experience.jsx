@@ -117,54 +117,20 @@ const Experience = () => {
       </div>
 
       <div className='ExperienceCards'>
-        <div className='Experiencecard__bg'>
-          <div className='Experiencecard__card-text'>
-            <h4 className='Experiencecard__card-text-date'>
-              May 2023 - Aug 2023
-            </h4>
-            <h1 className='Experiencecard__card-text-title'>
-              Business Development & <br/> Marketing Intern
-            </h1>
-            <h4 className='Experiencecard__card-text-company'>
-              Baker McKenzie Wong & Leow
-            </h4>
-            <p className='Experiencecard__card-text-content'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            </p>
-          </div>
-          <div className='Experiencecard__card-text-skills'>
-              <SiMicrosoftexcel />
-            </div>
-        </div>
 
-        <div className='Experiencecard__bg'>
-          <div className='Experiencecard__card-text'>
-            <h4 className='Experiencecard__card-text-date'>
-              May 2022 - Oct 2022
-            </h4>
-            <h1 className='Experiencecard__card-text-title'>
-              Data Summer Analyst
-            </h1>
-            <h4 className='Experiencecard__card-text-company'>
-              TES-AMM Singapore
-            </h4>
-            <p className='Experiencecard__card-text-content'>
-            Maintained, enhanced and created storyboards for data visualisation using Power BI. <br/>
-            Restructured workflows using end-to-end ETL processes using AWS cloud services. <br/>
-            Wrote automated Python scripts which automated the generation of documents for internal departments. <br/>
-            Conducted a Research Study using Machine Learning Techniques for the prediction and forecasting of processing times of assets. <br/>
-            </p>
-          </div>
-          <div className='Experiencecard__card-text-skills'>
-              <SiPython />
-              <SiPowerbi />
-              <SiAmazonaws />
-              <GrMysql />
-              <SiMicrosoftexcel />
-            </div>
-        </div>
+        <Experiencecard date = "May 2023 - Aug 2023" role = "Business Development & Marketing Intern" company ="Baker McKenzie Wong & Leow" 
+        content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        icon1 = {<SiMicrosoftexcel/>} />
+
+        <Experiencecard date = "May 2022 - Oct 2022" role = "Data Summer Analyst" company ="TES-AMM Singapore" 
+        content = {<> <span>Maintained, enhanced and created storyboards for data visualisation using Power BI.</span><br/><span>Restructured workflows using end-to-end ETL processes using AWS cloud services.</span><br/><span>Wrote automated Python scripts which automated the generation of documents for internal departments.</span><br/><span>Conducted a Research Study using Machine Learning Techniques for the prediction and forecasting of processing times of assets.</span></>}
+        icon1 = {<SiPython />} 
+        icon2 = {<SiPowerbi />}
+        icon3 = {<SiAmazonaws />}
+        icon4 = {<GrMysql />}
+        icon5 = {<SiMicrosoftexcel />}
+        />
+        
       </div>
 
     </div>

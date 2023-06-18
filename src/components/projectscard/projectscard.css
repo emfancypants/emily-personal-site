@@ -1,17 +1,24 @@
-.Projectscard__bg {
+.Projectscard__bg{
     background: var(--colour-card);
-    width: 500px;
+    width: 450px;
     height: 600px;
     border-radius: 15px;
     padding: 1.5rem;
     margin-right: 3rem;
     position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.Projectscard__card-pic-bg {
+.Projectscard__bg:hover {
+    background: #bbbbbb;
+    transform: scale(1.02);
+}
+
+.Projectscard__card-pic-bg, .expimage {
     background: var(--colour-bg);
     margin: auto;
-    width: 450px;
+    width: 400px;
     height: 200px;
     border-radius: 10px;
     display: flex;
