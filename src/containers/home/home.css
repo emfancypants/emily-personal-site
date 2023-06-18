@@ -1,6 +1,6 @@
 .website__home-whole {
     display: flex;
-    padding: 6rem 10rem 20rem 30rem;
+    padding: 6rem 10rem 20rem 25rem;
 }
 
 .website__home-image {
@@ -57,6 +57,7 @@
     padding: 0.75rem 2rem;
     background: var(--colour-footer);
     border-radius: 33px;
+    border: none;
     color: var(--colour-bg);
     font-family: var(--font-family);
     font-weight: 500;

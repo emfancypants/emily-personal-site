@@ -64,6 +64,7 @@
     padding: 0.75rem 2rem;
     background: var(--colour-footer);
     border-radius: 33px;
+    border: none;
     color: var(--colour-bg);
     font-family: var(--font-family);
     font-weight: 500;

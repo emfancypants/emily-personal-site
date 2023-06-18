@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css'
 import emoji from '../../assets/smiley emoji.png'
 import { BsMouse } from "react-icons/bs";
-import room from '../../assets/room5.png'
+import room from '../../assets/room6.png'
 
 const Home = () => {
   return (
