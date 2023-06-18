@@ -1,6 +1,22 @@
+.website__home-whole {
+    display: flex;
+    padding: 6rem 10rem 20rem 30rem;
+}
+
+.website__home-image {
+    width: 30%;
+    flex-grow: 1;
+}
+
+.website__home-image img {
+    width: 75%;
+    height: auto;
+    float: right;
+}
+
+
 .website__home {
     align-items: center;
-    padding: 6rem 6rem 20rem 30rem;
 }
 
 .website__home-intro h1, h4 {
