@@ -1,6 +1,6 @@
 .website__proj {
     align-items: center;
-    padding: 7rem 6rem 6rem 25rem;
+    padding: 3% 6rem 10% 25%
 }
 
 .website__proj-title h1{ 
@@ -15,4 +15,20 @@
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: inline mandatory;
 }
+
+
+.ProjectsCards > * {
+    scroll-snap-align: center;
+    
+}
+
+.ProjectsCards:last-child {
+    scroll-snap-align: end
+}
+
+
+

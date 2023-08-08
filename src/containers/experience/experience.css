@@ -1,6 +1,6 @@
 .website__exp {
     align-items: center;
-    padding: 7rem 6rem 2rem 25rem;
+    padding: 3% 6rem 15% 25%;
 }
 
 .website__exp-title h1{
@@ -15,6 +15,7 @@
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
 }
 
 .Skills_addtext {
@@ -30,10 +31,10 @@
 
 .Skills_text {
     font-family: var(--font-family);
-    font-size: 18px;
+    font-size: 1.1vw;
     color: var(--colour-text);
     margin-top: 0.5rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .Skills__bg {
@@ -44,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .Skills__bg svg{

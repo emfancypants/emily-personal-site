@@ -25,7 +25,7 @@ const Navbar = () => {
           <Menu />
         </div>
         <div className='website__navbar-resume scale-up-center'>
-          <a href="https://drive.google.com/file/d/1iwq36ZbKr6XnFbD03DgWgACnQypZPMwg/view?usp=sharing" target='blank'>
+          <a href="https://drive.google.com/file/d/1Rh14MzVFHjDgqfTB9r_OSEzXT_qUJfmG/view?usp=sharing" target='blank'>
             <button type='button'>View Resume</button>
           </a>
         </div>

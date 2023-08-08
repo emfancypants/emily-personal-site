@@ -5,6 +5,7 @@ import { SiPython, SiRstudio, SiPowerbi, SiHtml5, SiCss3, SiReact, SiMicrosoftex
 import { GrMysql } from "react-icons/gr";
 import { FaJava } from "react-icons/fa";
 import canny from '../../assets/canny.png'
+import twitter from '../../assets/twitter.png'
 
 const Projects = () => {
   return (
@@ -12,6 +13,7 @@ const Projects = () => {
       <div className='website__proj-title'>
         <h1>My Projects</h1>
       </div>
+
 
       <div className='ProjectsCards'>
         <Projectscard link = 'https://github.com/emfancypants/emilys-personal-portfolio' title = "My Personal Portfolio" duration = "June 2023 - Present"
@@ -21,7 +23,7 @@ const Projects = () => {
         icon3 = {<SiReact />}
         icon4 = {<SiFigma />} />
 
-        <Projectscard link = 'https://github.com/ShyamalSankar/Twitter-bot-detection' title = "Twitter Bot or Not?" duration = "March 2023 - April 2023"
+        <Projectscard link = 'https://github.com/ShyamalSankar/Twitter-bot-detection' image = {twitter} title = "Twitter Bot or Not?" duration = "March 2023 - April 2023"
         content = "Built primarily with Python and deployed using Flask, this Machine Learning project aims to be able to differentiate bot and human accounts on Twitter, and bot and human generated tweets. Web scrapping, EDA and modeling was performed to find the optimal model for deployment."
         icon1 = {<SiPython />} 
         icon2 = {<SiFlask />} />

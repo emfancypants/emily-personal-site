@@ -1,10 +1,10 @@
 .Experiencecard__bg {
     background: var(--colour-card);
-    width: 600px;
-    height: 470px;
+    width: 55%;
+    height: 550px;
     border-radius: 15px;
     padding: 1.5rem;
-    margin-right: 3rem;
+    margin-right: 5%;
     position: relative;
 }
 
@@ -21,28 +21,28 @@
 .Experiencecard__card-text-company,
 .Experiencecard__card-text-content {
     font-family: var(--font-family);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
     font-weight: 700;
 }
 
 .Experiencecard__card-text-date {
     color: var(--colour-subtext);
-    font-size: 18px;
+    font-size: 1.1vw;
 }
 
 .Experiencecard__card-text-company {
     color: var(--colour-subtext);
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 .Experiencecard__card-text-title {
     color: var(--colour-text);
-    font-size: 28px;
+    font-size: 1.8vw;
 }
 
 .Experiencecard__card-text-content {
     color: var(--colour-para);
-    font-size: 19px;
+    font-size: 16px;
 }
 
 

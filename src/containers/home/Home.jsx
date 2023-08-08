@@ -25,9 +25,9 @@ const Home = () => {
           </button>
         </a>
       </div>
-      <div className='website__home-image'>
+      {/* <div className='website__home-image'>
         <img src={room} alt="" />
-      </div>
+      </div> */}
     </div>
   )
 }

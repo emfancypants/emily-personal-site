@@ -1,6 +1,6 @@
 .Footer_bg {
-    background: var(--colour-footer);
-    padding: 4rem 6rem;
+    background: var(--colour-bg);
+    padding: 2% 6rem;
     display: flex; 
     flex-direction: row;
 }
@@ -27,9 +27,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-.button_up button:hover {
-    background: var(--colour-card);
-}
 
 .button_up svg{
     width: 38px;

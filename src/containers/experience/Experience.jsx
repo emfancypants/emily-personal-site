@@ -119,11 +119,11 @@ const Experience = () => {
       <div className='ExperienceCards'>
 
         <Experiencecard date = "May 2023 - Aug 2023" role = "Business Development & Marketing Intern" company ="Baker McKenzie Wong & Leow" 
-        content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        content = {<> <span>• Led the successful planning of a regional event attended by 150 participants.</span><br/><span>• Utilized data analysis techniques to prepare a yearly event report to derive valuable insights for future prospects.</span><br/><span>• Compiled business research reports for client profiling to support strategic decision-making and enhance client relationships.</span><br/><span>• Crafted capability statements to secure new businesses to present the firm's strengths and unique value proposition to resonate with potential clients.</span><br/><span>• Prepared monthly client alerts and newsletters to deliver relevant and timely information to clients and partners.</span></>}
         icon1 = {<SiMicrosoftexcel/>} />
 
         <Experiencecard date = "May 2022 - Oct 2022" role = "Data Summer Analyst" company ="TES-AMM Singapore" 
-        content = {<> <span>Maintained, enhanced and created storyboards for data visualisation using Power BI.</span><br/><span>Restructured workflows using end-to-end ETL processes using AWS cloud services.</span><br/><span>Wrote automated Python scripts which automated the generation of documents for internal departments.</span><br/><span>Conducted a Research Study using Machine Learning Techniques for the prediction and forecasting of processing times of assets.</span></>}
+        content = {<> <span>• Maintained and Enhanced Group Financial storyboards using Microsoft Power BI to visualize financial data and provide meaningful insights for the company.</span><br/><span>• Restructured the Value Recovery Workflow using end-to-end ETL processes using AWS cloud services (S3, Lambda, Glue, Athena, Redshift).</span><br/><span>• Wrote automated Python scripts to generate reports using Excel sheets which helped the Marketing Department save 10 minutes per report generated.</span><br/><span>• Conducted a Research Study using Machine Learning Techniques for the prediction and forecasting of processing times of assets.</span></>}
         icon1 = {<SiPython />} 
         icon2 = {<SiPowerbi />}
         icon3 = {<SiAmazonaws />}
