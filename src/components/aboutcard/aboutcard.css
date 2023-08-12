@@ -21,6 +21,7 @@
     display: block;
     margin: auto;
     margin-bottom: 0px;
+    height: 130px;
 }
 
 .Aboutcard__card-text-title, .Aboutcard__card-text-content {

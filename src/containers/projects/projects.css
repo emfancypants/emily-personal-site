@@ -30,5 +30,27 @@
     scroll-snap-align: end
 }
 
+/* width */
+::-webkit-scrollbar {
+    height: 15px; 
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--colour-text);
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--colour-subtext); 
+}
 
 
