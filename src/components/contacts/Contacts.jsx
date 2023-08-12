@@ -1,7 +1,6 @@
 import React from 'react';
 import './contacts.css'
 import { SiGmail, SiInstagram, SiTelegram, SiLinkedin, SiGithub } from "react-icons/si";
-import { MdOutlineEmail } from "react-icons/md";
 
 
 const Contacts = () => {
