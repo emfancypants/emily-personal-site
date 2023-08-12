@@ -16,7 +16,7 @@ const Projects = () => {
 
 
       <div className='ProjectsCards'>
-        <Projectscard link = 'https://github.com/emfancypants/emfancypants.github.io' image = {website} title = "My Personal Portfolio" duration = "June 2023 - Present"
+        <Projectscard link = 'https://github.com/emfancypants/emily-personal-site' image = {website} title = "My Personal Portfolio" duration = "June 2023 - Present"
         content = "This website was built with ReactJS with basic CSS, and deployed on Netlify. Through an archive of past projects and experiences, this personal portfolio gives viewers an insight of who Emily is and what she has to offer."
         icon1 = {<SiCss3 />}
         icon2 = {<SiReact />}
