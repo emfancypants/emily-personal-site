@@ -13,8 +13,6 @@ const Menu = () => (
 )
 
 const Navbar = () => {
-// const [toggleMenu, setToggleMenu] = useState(false);
-
   return (
     <div className='website__navbar'>
       <div className='website__navbar-links'>
@@ -29,22 +27,6 @@ const Navbar = () => {
             <button type='button'>View Resume</button>
           </a>
         </div>
-
-        {/* <div className="website__navbar-menu">
-          {toggleMenu
-            ? <RiCloseLine color= '#282C3C' size={27} onClick={() => setToggleMenu(false)} />
-            : <RiMenu3Line color='#282C3C' size={27} onClick={() => setToggleMenu(true)} />}
-          {toggleMenu && (
-          <div className="website__navbar-menu_container scale-up-center">
-            <div className="website__navbar-menu_container-links">
-              <Menu />
-            </div>
-            <div className='website__navbar-menu_container-links-resume'>
-              <button type='button'>View Resume</button>
-            </div>
-          </div>
-          )}
-        </div> */}
 
       </div>
     </div>

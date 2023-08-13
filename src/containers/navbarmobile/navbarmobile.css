@@ -1,0 +1,12 @@
+.website__navbarmobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.website__navbarmobile-links_logo img {
+    width: 55px;
+    height: 55px;
+    
+}

@@ -6,7 +6,7 @@
 }
 
 .copyright {
-    color: var(--colour-bg);
+    color: var(--colour-text);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
