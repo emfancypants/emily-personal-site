@@ -1,0 +1,44 @@
+.Aboutcardmobile__card {
+    background: var(--colour-card);
+    width: 80%;
+    height: 300px;
+    border-radius: 15px;
+    padding: 3%;
+    margin-bottom: 6%;
+}
+
+.Aboutcardmobile__card-pic-bg {
+    background: var(--colour-bg);
+    margin: auto;
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.Aboutcardmobile__card-pic-bg img{
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+    height: 100px;
+}
+
+.Aboutcardmobile__card-text-title, .Aboutcard__card-text-content {
+    font-family: var(--font-family);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.Aboutcardmobile__card-text-title {
+    font-size: 20px;
+    color: var(--colour-text);
+    font-family: var(--font-family);
+}
+
+.Aboutcardmobile__card-text-content {
+    font-size: 16px;
+    color: var(--colour-para);
+    font-family: var(--font-family);
+    font-weight: 600;
+}

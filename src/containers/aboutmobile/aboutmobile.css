@@ -1,0 +1,17 @@
+.website__aboutmobile {
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.website__aboutmobile-title h1{
+    font-family: var(--font-family);
+    font-size: 36px;
+    color: var(--colour-text);
+    padding-bottom: 2rem;
+}
+
+.Aboutmobilecards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

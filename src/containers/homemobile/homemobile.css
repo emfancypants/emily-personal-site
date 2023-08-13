@@ -1,0 +1,69 @@
+.website__homemobile-whole {
+    display: flex;
+    padding: 2rem 2rem;
+}
+
+.website__homemobile-image {
+    width: 30%;
+    flex-grow: 1;
+}
+
+.website__homemobile-image img {
+    width: 75%;
+    height: auto;
+    float: right;
+}
+
+
+.website__homemobile {
+    align-items: center;
+}
+
+.website__homemobile-intro h1, h4 {
+    font-family: var(--font-family);
+    margin-bottom: 0.2rem;
+}
+
+.website__homemobile-intro h4 {
+    font-size: 20px;
+    color: var(--colour-subtext);
+}
+
+.website__homemobile-intro h1 {
+    font-size: 55px;
+    color: var(--colour-text);
+}
+
+.website__homemobile-scroll-mouse {
+    margin: 1rem 0;
+}
+
+.website__homemobile-scroll-mouse {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    background: var(--colour-footer);
+    border-radius: 33px;
+    border: none;
+    color: var(--colour-bg);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.website__homemobile-scroll-mouse:hover{
+    background: #10121B;   
+}
+
+.website__homemobile-scroll-mouse svg {
+    color: var(--colour-bg);
+    height: 20px;
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+
