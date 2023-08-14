@@ -1,7 +1,7 @@
 .Experiencecardmobile__bg {
     background: var(--colour-card);
     width: 90%;
-    height: 500px;
+    height: 550px;
     border-radius: 15px;
     padding: 4%;
     margin-bottom: 6%;
@@ -47,7 +47,7 @@
 
 .Experiencecardmobile__card-text-skills {
     position: absolute;
-    margin-top: 440px;
+    margin-top: 490px;
     display: flex;
     flex-direction: row;
     align-items: center;

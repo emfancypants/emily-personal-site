@@ -23,6 +23,7 @@
     flex-direction: column;
     align-items: center;
     transition: all 0.3s ease-in-out;
+    margin-bottom: 1rem;
 }
 
 .Skills_addtext:hover {

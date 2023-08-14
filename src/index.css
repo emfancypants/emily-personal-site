@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans');
+@import url(https://fonts.googleapis.com/css?family=Inter);
 
 :root {
-  --font-family: 'DM Sans', sans-serif;
+  --font-family: 'Inter', sans-serif;
   
   --colour-bg: #FFFFFA;
   --colour-footer : #282C3C;

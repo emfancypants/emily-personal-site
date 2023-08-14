@@ -1,7 +1,7 @@
 .Projectscard__bg{
     background: var(--colour-card);
     width: 80%;
-    height: 550px;
+    height: 580px;
     border-radius: 15px;
     padding: 1.5rem;
     margin: 0.5rem 3rem 1.5rem 0.5rem;
@@ -22,7 +22,7 @@
     height: 200px;
     border-radius: 10px;
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .Projectscard__card-text {
@@ -44,7 +44,7 @@
 
 .Projectscard__card-text-date {
     color: var(--colour-subtext);
-    font-size: 1.2vw;
+    font-size: 1.1vw;
 }
 
 .Projectscard__card-text-title {
