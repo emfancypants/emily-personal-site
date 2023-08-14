@@ -42,7 +42,7 @@
     transform: scale(1.1);
 }
 
-.website__navbarmobile-resume button {
+/* .website__navbarmobile-resume button {
     padding: 0.3rem;
     background: var(--colour-footer);
     border-radius: 7px;
@@ -60,4 +60,4 @@
 .website__navbarmobile-resume-icon svg {
     height: 18px;
     width: auto;
-}
+} */

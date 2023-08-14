@@ -56,9 +56,9 @@
 
 .websitemobile__contacts svg {
     color: var(--colour-bg);
-    width: 35px;
+    width: 30px;
     height: auto;
-    margin: 4%;
+    margin: 3%;
 }
 
 .websitemobile__contacts svg:target {

@@ -22,13 +22,6 @@ const Navbarmobile = () => {
         <div className='website__navbarmobile_container'>
           <Menumobile />
         </div>
-        <div className='website__navbarmobile-resume scale-up-center'>
-          <a href="https://drive.google.com/file/d/1Rh14MzVFHjDgqfTB9r_OSEzXT_qUJfmG/view?usp=sharing" target='blank'>
-            <button className='website__navbarmobile-resume-icon' type='button'>
-              <HiDocumentText />
-            </button>
-          </a>
-        </div>
     </div>
   )
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import './footermobile.css';
 import {MdKeyboardDoubleArrowUp} from 'react-icons/md';
 import { SiGmail, SiInstagram, SiTelegram, SiLinkedin, SiGithub } from "react-icons/si";
+import { IoMdDocument } from "react-icons/io";
+
 
 
 const Footermobile = () => {
@@ -24,6 +26,9 @@ const Footermobile = () => {
           </a>
           <a href="https://github.com/emfancypants" target="_blank">
               <SiGithub />
+          </a>
+          <a href="https://drive.google.com/file/d/1Rh14MzVFHjDgqfTB9r_OSEzXT_qUJfmG/view?usp=sharing" target='blank'>
+              <IoMdDocument />
           </a>
         </div>
       </div>
