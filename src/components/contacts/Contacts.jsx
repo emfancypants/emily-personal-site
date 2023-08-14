@@ -21,8 +21,6 @@ const Contacts = () => {
       <a href="https://github.com/emfancypants" target="_blank">
           <SiGithub />
       </a>
-
-
     </div>
   )
 }

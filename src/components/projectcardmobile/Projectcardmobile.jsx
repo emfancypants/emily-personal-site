@@ -1,10 +1,32 @@
 import React from 'react';
 import './projectcardmobile.css';
 
-const Projectcardmobile = () => {
+function ProjectsCardsmobile(props) {
   return (
-    <div>Projectcardmobile</div>
+    <a className='Projectscardmobile__bg' href={props.link} target='blank'>
+      <div className='Projectscardmobile__card-pic-bg'>
+        <img className='expimage' src={props.image} alt="" />
+      </div>
+      <div className='Projectscardmobile__card-text'>
+        <h1 className='Projectscardmobile__card-text-title'>
+          {props.title}
+        </h1>
+        <h4 className='Projectscardmobile__card-text-date'>
+          {props.duration}
+        </h4>
+        <p className='Projectscardmobile__card-text-content'>
+          {props.content}
+        </p>
+      </div>
+      <div className='Projectscardmobile__card-text-skills'>
+          {props.icon1}
+          {props.icon2}
+          {props.icon3}
+          {props.icon4}
+          {props.icon5}
+        </div> 
+    </a>
   )
 }
 
-export default Projectcardmobile
+export default ProjectsCardsmobile

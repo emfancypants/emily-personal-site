@@ -1,0 +1,77 @@
+.Projectscardmobile__bg{
+    background: var(--colour-card);
+    width: 90%;
+    height: 450px;
+    border-radius: 15px;
+    padding: 4%;
+    margin-bottom: 6%;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Projectscardmobile__bg:target {
+    background: #bbbbbb;
+}
+
+.Projectscardmobile__card-pic-bg, .expimage {
+    background: var(--colour-bg);
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+.Projectscardmobile__card-pic-bg {
+    margin-bottom: 1rem;
+}
+
+.Projectscardmobile__card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Projectscardmobile__card-text-date, 
+.Projectscardmobile__card-text-title,
+.Projectscardmobile__card-text-company,
+.Projectscardmobile__card-text-content {
+    font-family: var(--font-family);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.Projectscardmobile__card-text-date {
+    color: var(--colour-subtext);
+    font-size: 14px;
+}
+
+.Projectscardmobile__card-text-title {
+    color: var(--colour-text);
+    font-size: 20px;
+}
+
+.Projectscardmobile__card-text-content {
+    color: var(--colour-para);
+    font-size: 14px;
+}
+
+
+.Projectscardmobile__card-text-skills {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Projectscardmobile__card-text-skills svg {
+    width: 27px;
+    height: auto;
+    color: var(--colour-text);
+    margin-right: 0.7rem;
+}

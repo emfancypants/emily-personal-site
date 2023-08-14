@@ -36,23 +36,23 @@
 
 }
 
-.website__navbarmobile_container p:hover{
+.website__navbarmobile_container p:target{
     color: #10121B;   
     text-decoration: underline;
     transform: scale(1.1);
 }
 
 .website__navbarmobile-resume button {
-    padding: 0.5rem;
+    padding: 0.3rem;
     background: var(--colour-footer);
-    border-radius: 8px;
+    border-radius: 7px;
     border: none;
     color: var(--colour-bg);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
-.website__navbarmobile-resume button:hover {
+.website__navbarmobile-resume button:target {
     background: #10121B;   
     transform: scale(1.1);
 }

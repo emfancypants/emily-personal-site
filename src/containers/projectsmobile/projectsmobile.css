@@ -1,0 +1,19 @@
+.websitemobile__proj {
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.websitemobile__proj-title h1{ 
+    font-family: var(--font-family);
+    font-size: 36px;
+    color: var(--colour-text);
+    padding-bottom: 2rem;
+}
+
+.ProjectsCardsmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

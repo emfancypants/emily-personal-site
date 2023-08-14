@@ -1,0 +1,61 @@
+.Experiencecardmobile__bg {
+    background: var(--colour-card);
+    width: 90%;
+    height: 500px;
+    border-radius: 15px;
+    padding: 4%;
+    margin-bottom: 6%;
+}
+
+.Experiencecardmobile__card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Experiencecardmobile__card-text-date, 
+.Experiencecardmobile__card-text-title,
+.Experiencecardmobile__card-text-company,
+.Experiencecardmobile__card-text-content {
+    font-family: var(--font-family);
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+}
+
+.Experiencecardmobile__card-text-date {
+    color: var(--colour-subtext);
+    font-size: 14px;
+}
+
+.Experiencecardmobile__card-text-company {
+    color: var(--colour-subtext);
+    font-size: 14px;
+}
+
+.Experiencecardmobile__card-text-title {
+    color: var(--colour-text);
+    font-size: 20px;
+}
+
+.Experiencecardmobile__card-text-content {
+    color: var(--colour-para);
+    font-size: 14px;
+}
+
+
+.Experiencecardmobile__card-text-skills {
+    position: absolute;
+    margin-top: 440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Experiencecardmobile__card-text-skills svg {
+    width: 27px;
+    height: auto;
+    color: var(--colour-text);
+    margin-right: 0.7rem;
+}

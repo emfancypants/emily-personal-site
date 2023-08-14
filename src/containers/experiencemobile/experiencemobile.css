@@ -1,0 +1,56 @@
+.websitemobile__exp {
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.websitemobile__exp-title h1{
+    font-family: var(--font-family);
+    font-size: 36px;
+    color: var(--colour-text);
+    padding-bottom: 2rem;
+}
+
+.Skillscardsmobile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.Skillsmobile_addtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.Skillsmobile_text {
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--colour-text);
+    margin-top: 0.2rem;
+    margin-right: 1rem;
+}
+
+.Skillsmobile__bg {
+    background: var(--colour-card);
+    width: 58px;
+    height: 58px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.Skillsmobile__bg svg{
+    width: 35px;
+    height: 35px;
+    color: var(--colour-text);
+}
+
+.ExperienceCardsmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
